@@ -5,7 +5,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "test": "node --test tests/*.mjs"
+    "test": "node --test test/*.mjs"
   },
   "repository": {
     "type": "git",
