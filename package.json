@@ -1,0 +1,24 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "Playing with Node built-in test runner",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/*.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/node-tests.git"
+  },
+  "keywords": [],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bahmutov/node-tests/issues"
+  },
+  "homepage": "https://github.com/bahmutov/node-tests#readme",
+  "devDependencies": {
+    "prettier": "^2.8.4"
+  }
+}
