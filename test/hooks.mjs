@@ -1,7 +1,7 @@
 import { describe, it, before, beforeEach, after, afterEach } from 'node:test'
 import assert from 'node:assert/strict'
 
-describe('X', () => {
+describe('feature X', () => {
   before(() => {
     // prepare to test
   })
