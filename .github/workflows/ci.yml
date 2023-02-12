@@ -1,12 +1,13 @@
 name: ci
 on: push
 jobs:
-  name: test
-  steps:
-    - uses: actions/checkout@v3
-    - uses: actions/setup-node@v3
-      with:
-        node-version: 18
-        cache: 'npm'
-    - run: npm ci
-    - run: npm run spec
+  test:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: 'npm'
+      - run: npm ci
+      - run: npm run spec
