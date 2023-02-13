@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "test": "node --test",
-    "spec": "node --test --test-reporter spec"
+    "spec": "node --test --test-reporter spec",
+    "faucet": "node --test | faucet"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,8 @@
   },
   "homepage": "https://github.com/bahmutov/node-tests#readme",
   "devDependencies": {
-    "prettier": "^2.8.4"
+    "faucet": "^0.0.4",
+    "prettier": "^2.8.4",
+    "tap-prettify": "^0.0.2"
   }
 }
