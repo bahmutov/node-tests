@@ -22,8 +22,11 @@
   "homepage": "https://github.com/bahmutov/node-tests#readme",
   "devDependencies": {
     "@types/node": "^18.13.0",
+    "assert-plus": "^1.0.0",
     "ava": "^5.2.0",
+    "chai": "^4.3.7",
     "faucet": "^0.0.4",
+    "mocha": "^10.2.0",
     "prettier": "^2.8.4",
     "spok": "^1.4.3",
     "tap-prettify": "^0.0.2"
