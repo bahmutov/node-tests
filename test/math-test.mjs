@@ -8,6 +8,15 @@ it('adds two numbers', () => {
 })
 
 it('adds two numbers (mocks add)', async () => {
+  const { calculate } = await esmock('./calculator.mjs', {
+    './math.mjs': {
+      add: () => 20,
+    },
+  })
+  assert.equal(calculate('+', 2, 3), 20)
+})
+
+it('adds two numbers (confirm call)', async () => {
   const add = mock.fn(() => 20)
   const { calculate } = await esmock('./calculator.mjs', {
     './math.mjs': {
