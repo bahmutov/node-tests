@@ -9,7 +9,8 @@
     "test": "node --test",
     "spec": "node --test --test-reporter spec",
     "faucet": "node --test | faucet",
-    "ts-test": "node --test --loader ts-node/esm test/*.ts"
+    "ts-test": "node --test --loader ts-node/esm test/*.ts",
+    "mock": "node --loader=esmock test/math-test.mjs"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,7 @@
     "ava": "^5.2.0",
     "c8": "^7.12.0",
     "chai": "^4.3.7",
+    "esmock": "^2.1.0",
     "faucet": "^0.0.4",
     "mocha": "^10.2.0",
     "prettier": "^2.8.4",
