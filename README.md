@@ -15,6 +15,7 @@ This are example tests from my presentation [Learn About Node's New Built-in Tes
 - Stub methods [stubs.mjs](./test/stubs.mjs)
 - Stub ES6 exports using `esmock` [math-test.mjs](./test/math-test.mjs)
 - Dynamically generated tests from asynchronous data [generated-tests.mjs](./test/generated-tests.mjs)
+- Experimental code coverage with command `node --experimental-test-coverage test/calculator.test.mjs`
 
 ## Small print
 
