@@ -5,6 +5,6 @@ it('works', () => {
   assert.equal(1, 1)
 })
 
-it.skip('fails', () => {
+it('fails', { only: true }, () => {
   assert.equal(2, 5)
 })
